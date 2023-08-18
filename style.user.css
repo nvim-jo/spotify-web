@@ -29,7 +29,7 @@
     "Mocha",
 ]
 ==/UserStyle== */
-@-moz-document domain("spotify.com") {
+@-moz-document domain("open.spotify.com") {
     :root {
         --surface0-raw-r: 54;
         --surface0-raw-g: 58;
