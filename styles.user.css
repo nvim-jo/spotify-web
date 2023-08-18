@@ -30,10 +30,7 @@
 ]
 ==/UserStyle== */
 @-moz-document domain("open.spotify.com") {
-    :root {
-        --surface0-raw-r: 54;
-        --surface0-raw-g: 58;
-        --surface0-raw-b: 79;
+    :root { 
         if stylusFlavor=="Macchiato" {
             --rosewater: #f4dbd6;
             --flamingo: #f0c6c6;
@@ -64,6 +61,17 @@
             --surface0-raw-r: 54;
             --surface0-raw-g: 58;
             --surface0-raw-b: 79;
+
+            --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
+            --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
+            --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
+            --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
+            --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
 
             /* non-standard colors */
             --surface1Transparent: #494d64bd;
@@ -99,6 +107,17 @@
             --surface0-raw-r: 49;
             --surface0-raw-g: 50;
             --surface0-raw-b: 68;
+
+            --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
+            --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
+            --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
+            --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
+            --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
 
             /* non-standard colors */
             --surface1Transparent: #45475abd;
@@ -282,16 +301,16 @@
     .encore-dark-theme .encore-over-media-set {
         --background-base: var(--crust);
         --background-highlight: var(--base);
-        --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
-        --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
-        --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
-        --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
-        --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-        --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-        --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-        --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-        --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-        --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-press: rgba(0, 0, 0, .72);
+        --background-unsafe-for-small-text-base: rgba(0, 0, 0, .42);
+        --background-unsafe-for-small-text-highlight: rgba(0, 0, 0, .44);
+        --background-unsafe-for-small-text-press: rgba(0, 0, 0, .61);
+        --background-elevated-base: rgba(0, 0, 0, .54);
+        --background-elevated-highlight: rgba(0, 0, 0, .54);
+        --background-elevated-press: rgba(0, 0, 0, .54);
+        --background-tinted-base: rgba(0, 0, 0, .54);
+        --background-tinted-highlight: rgba(0, 0, 0, .54);
+        --background-tinted-press: rgba(0, 0, 0, .54);
         --text-base: var(--text);
         --text-subdued: var(--text);
         --text-bright-accent: var(--text);
@@ -318,9 +337,9 @@
         --background-elevated-base: var(--crust);
         --background-elevated-highlight: #585b70;
         --background-elevated-press: #000;
-        --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .07);
-        --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .1);
-        --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .04);
+        --background-tinted-base: rgba(0, 0, 0, .07);
+        --background-tinted-highlight: rgba(0, 0, 0, .1);
+        --background-tinted-press: rgba(0, 0, 0, .04);
         --background-unsafe-for-small-text-base: #121212;
         --background-unsafe-for-small-text-highlight: #121212;
         --background-unsafe-for-small-text-press: #121212;
