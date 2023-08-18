@@ -61,17 +61,17 @@
             --surface0-raw-r: 54;
             --surface0-raw-g: 58;
             --surface0-raw-b: 79;
-
-            --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
-            --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
-            --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
-            --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
-            --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            
+            --background-press: rgba(54, 58, 79, .72);
+            --background-unsafe-for-small-text-base: rgba(54, 58, 79, .42);
+            --background-unsafe-for-small-text-highlight: rgba(54, 58, 79, .44);
+            --background-unsafe-for-small-text-press: rgba(54, 58, 79, .61);
+            --background-elevated-base: rgba(54, 58, 79, .54);
+            --background-elevated-highlight: rgba(54, 58, 79, .54);
+            --background-elevated-press: rgba(54, 58, 79, .54);
+            --background-tinted-base: rgba(54, 58, 79, .54);
+            --background-tinted-highlight: rgba(54, 58, 79, .54);
+            --background-tinted-press: rgba(54, 58, 79, .54);
 
             /* non-standard colors */
             --surface1Transparent: #494d64bd;
@@ -108,16 +108,16 @@
             --surface0-raw-g: 50;
             --surface0-raw-b: 68;
 
-            --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
-            --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
-            --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
-            --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
-            --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
-            --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+            --background-press: rgba(49, 50, 68, .72);
+            --background-unsafe-for-small-text-base: rgba(49, 50, 68, .42);
+            --background-unsafe-for-small-text-highlight: rgba(49, 50, 68, .44);
+            --background-unsafe-for-small-text-press: rgba(49, 50, 68, .61);
+            --background-elevated-base: rgba(49, 50, 68, .54);
+            --background-elevated-highlight: rgba(49, 50, 68, .54);
+            --background-elevated-press: rgba(49, 50, 68, .54);
+            --background-tinted-base: rgba(49, 50, 68, .54);
+            --background-tinted-highlight: rgba(49, 50, 68, .54);
+            --background-tinted-press: rgba(49, 50, 68, .54); 
 
             /* non-standard colors */
             --surface1Transparent: #45475abd;
