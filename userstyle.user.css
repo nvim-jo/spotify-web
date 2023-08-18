@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Spotify Web UI Catppuccin
 @namespace      github.com/nvim-jo/spotify-web
-@version        1.0.2
+@version        1.0.3
 @description    Smooth pastel
 @author         nvim-jo
 
@@ -302,6 +302,11 @@
     .LunqxlFIupJw_Dkx6mNx:hover {
         background: var(--surface0);
     }
+
+    /* Love Button */
+    .haNxPq {
+        fill: var(--red) !important;
+      }
 
     .encore-dark-theme .encore-over-media-set {
         --background-base: var(--crust);
