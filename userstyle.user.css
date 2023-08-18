@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Spotify Web UI Catppuccin
 @namespace      github.com/nvim-jo/spotify-web
-@version        1.0.1
+@version        1.0.2
 @description    Smooth pastel
 @author         nvim-jo
 
@@ -167,6 +167,11 @@
             --accent: var(--lavender);
         }
     }
+
+    .T1xI1RTSFU7Wu94UuvE6 {
+        background-color: var(--background-base) !important;
+    }
+
     /* Insert code here... */
     .ZQftYELq0aOsg6tPbVbV {
         background-color: var(--base);
