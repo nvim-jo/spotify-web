@@ -76,6 +76,7 @@
             /* non-standard colors */
             --surface1Transparent: #494d64bd;
             --mist: #181926bd;
+            --searchbox-hint: hsla(228, 20%, 65%,.7);
         }
         else if stylusFlavor=="Mocha" {
             --rosewater: #f5e0dc;
@@ -122,6 +123,8 @@
             /* non-standard colors */
             --surface1Transparent: #45475abd;
             --mist: #11111bbd;
+
+            --searchbox-hint: hsla(228, 17%, 64%,.7);
         }
 
         if stylusAccent=="Rosewater" {
@@ -306,7 +309,27 @@
     /* Love Button */
     .haNxPq {
         fill: var(--red) !important;
-      }
+    }
+
+    /* Search Box */
+    .QO9loc33XC50mMRUCIvf:focus {
+        -webkit-box-shadow: 0 0 0 2px var(--accent);
+        box-shadow: 0 0 0 2px var(--accent);
+        outline: none;
+    }
+
+    .QO9loc33XC50mMRUCIvf:hover {
+        background-color: var(--mantle);
+    }
+
+    .QO9loc33XC50mMRUCIvf {
+        background-color: var(--base);
+        color: var(--text) !important;
+    }
+
+    .H6jh9Xd7DNOq3NsLDmCB {
+        color: var(--searchbox-hint);
+    }
 
     .encore-dark-theme .encore-over-media-set {
         --background-base: var(--crust);
