@@ -32,6 +32,9 @@
 ==/UserStyle== */
 @-moz-document domain("spotify.com") {
     :root {
+        --surface0-raw-r: 54;
+        --surface0-raw-g: 58;
+        --surface0-raw-b: 79;
         if stylusFlavor=="Macchiato" {
             --rosewater: #f4dbd6;
             --flamingo: #f0c6c6;
