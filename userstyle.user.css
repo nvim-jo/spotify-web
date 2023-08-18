@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Spotify Web UI Catppuccin
 @namespace      github.com/nvim-jo/spotify-web
-@version        1.0.3
+@version        1.0.4
 @description    Smooth pastel
 @author         nvim-jo
 
@@ -307,8 +307,12 @@
     }
 
     /* Love Button */
-    .haNxPq {
+    button.control-button-heart svg{
         fill: var(--red) !important;
+    }
+
+    .control-button-heart[aria-checked="true"] {
+        color: var(--accent);
     }
 
     /* Search Box */
