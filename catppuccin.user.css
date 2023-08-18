@@ -1,0 +1,373 @@
+/* ==UserStyle==
+@name           Spotify Web Catppuccin
+@namespace      github.com/nvim-jo/spotify-web
+@version        1.0.0
+@description    Smooth pastel
+@author         nvim-jo
+@updateURL      https://github.com/nvim-jo/spotify-web/main/catppuccin.user.css
+
+@preprocessor stylus
+
+@var select stylusAccent "Accent color" [
+	"Rosewater",
+	"Flamingo",
+	"Pink",
+	"Mauve",
+	"Red",
+    "Maroon",
+	"Peach",
+	"Yellow",
+    "Green",
+	"Teal",
+	"Sky",
+    "Sapphire",
+	"Blue",
+	"Lavender"
+]
+
+@var select stylusFlavor "Catppuccin Flavor" [
+    "Macchiato",
+    "Mocha",
+]
+==/UserStyle== */
+@-moz-document domain("spotify.com") {
+    :root {
+        if stylusFlavor=="Macchiato" {
+            --rosewater: #f4dbd6;
+            --flamingo: #f0c6c6;
+            --pink: #f5bde6;
+            --mauve: #c6a0f6;
+            --red: #ed8796;
+            --maroon: #ee99a0;
+            --peach: #f5a97f;
+            --yellow: #eed49f;
+            --green: #a6da95;
+            --teal: #8bd5ca;
+            --sky: #91d7e3;
+            --sapphire: #7dc4e4;
+            --blue: #8aadf4;
+            --lavender: #b7bdf8;
+            --text: #cad3f5;
+            --subtext1: #b8c0e0;
+            --subtext0: #a5adcb;
+            --overlay2: #939ab7;
+            --overlay1: #8087a2;
+            --overlay0: #6e738d;
+            --surface2: #5b6078;
+            --surface1: #494d64;
+            --surface0: #363a4f;
+            --base: #24273a;
+            --mantle: #1e2030;
+            --crust: #181926;
+            --surface0-raw-r: 54;
+            --surface0-raw-g: 58;
+            --surface0-raw-b: 79;
+
+            /* non-standard colors */
+            --surface1Transparent: #494d64bd;
+            --mist: #181926bd;
+        }
+        else if stylusFlavor=="Mocha" {
+            --rosewater: #f5e0dc;
+            --flamingo: #f2cdcd;
+            --pink: #f5c2e7;
+            --mauve: #cba6f7;
+            --red: #f38ba8;
+            --maroon: #eba0ac;
+            --peach: #fab387;
+            --yellow: #f9e2af;
+            --green: #a6e3a1;
+            --teal: #94e2d5;
+            --sky: #89dceb;
+            --sapphire: #74c7ec;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --overlay2: #9399b2;
+            --overlay1: #7f849c;
+            --overlay0: #6c7086;
+            --surface2: #585b70;
+            --surface1: #45475a;
+            --surface0: #313244;
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --crust: #11111b;
+            --surface0-raw-r: 49;
+            --surface0-raw-g: 50;
+            --surface0-raw-b: 68;
+
+            /* non-standard colors */
+            --surface1Transparent: #45475abd;
+            --mist: #11111bbd;
+        }
+
+        if stylusAccent=="Rosewater" {
+            --accent: var(--rosewater);
+        }
+        else if stylusAccent=="Flamingo" {
+            --accent: var(--flamingo);
+        }
+        else if stylusAccent=="Pink" {
+            --accent: var(--pink);
+        }
+        else if stylusAccent=="Mauve" {
+            --accent: var(--mauve);
+        }
+        else if stylusAccent=="Red" {
+            --accent: var(--red);
+        }
+        else if stylusAccent=="Maroon" {
+            --accent: var(--maroon);
+        }
+        else if stylusAccent=="Peach" {
+            --accent: var(--peach);
+        }
+        else if stylusAccent=="Yellow" {
+            --accent: var(--yellow);
+        }
+        else if stylusAccent=="Green" {
+            --accent: var(--green);
+        }
+        else if stylusAccent=="Teal" {
+            --accent: var(--teal);
+        }
+        else if stylusAccent=="Sky" {
+            --accent: var(--sky);
+        }
+        else if stylusAccent=="Sapphire" {
+            --accent: var(--sapphire);
+        }
+        else if stylusAccent=="Blue" {
+            --accent: var(--blue);
+        }
+        else if stylusAccent=="Lavender" {
+            --accent: var(--lavender);
+        }
+    }
+    /* Insert code here... */
+    .ZQftYELq0aOsg6tPbVbV {
+        background-color: var(--base);
+    }
+
+    .EZFyDnuQnx5hw78phLqP {
+        background-color: var(--crust);
+    }
+
+    .BdcvqBAid96FaHAmPYw_ {
+        background-color: var(--base);
+    }
+
+    .HsbczDqu9qjcYr7EIdHR {
+        background-color: var(--crust) !important;
+        background-image: linear-gradient(var(--crust) 0, var(--crust) 100%), var(--background-noise) !important;
+    }
+
+    .epWhU7hHGktzlO_dop6z {
+        background-color: var(--accent) !important;
+    }
+
+    /* Card */
+    .LunqxlFIupJw_Dkx6mNx {
+        background: var(--base);
+    }
+
+    .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq::after {
+        background-color: var(--accent) !important;
+    }
+
+    .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq,
+    .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq:focus,
+    .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq:hover {
+        color: var(--accent) !important;
+    }
+
+    .leya-dW {
+        fill: var(--text) !important;
+    }
+
+    .VgSbatGBB9XwTH2_dsxg .ql0zZd7giPXSnPg75NR0 {
+        background-color: transparent;
+        color: var(--text) !important;
+    }
+
+    .haNxPq {
+        fill: var(--text) !important;
+    }
+
+    .eDaZIM {
+        background-color: var(--background-base, var(--crust)) !important;
+        color: var(--text-base, var(--text)) !important;
+    }
+
+    .cabTyT {
+        background-color: var(--crust);
+    }
+
+    .facDIsOQo9q7kiWc4jSg a {
+        background-color: var(--crust) !important;
+    }
+
+    .m95Ymx847hCaxHjmyXKX {
+        background-color: transparent;
+    }
+
+    .SFgYidQmrqrFEVh65Zrg:hover {
+        background-color: var(--background-base) !important;
+    }
+
+    .bkjCej {
+        color: var(--text) !important;
+    }
+
+    /* Play Button */
+    .vnCew8qzJq3cVGlYFXRI {
+        background-color: var(--text) !important;
+        border-radius: 8px;
+        color: var(--crust) !important;
+    }
+
+    button.vnCew8qzJq3cVGlYFXRI svg {
+        fill: var(--crust) !important;
+    }
+
+    .iDxtzn svg {
+        fill: var(--crust) !important;
+    }
+
+    .cuLHaM {
+        background-color: var(--base) !important;
+    }
+
+    .SboKmDrCTZng7t4EgNoM {
+        background-color: var(--crust) !important;
+        -webkit-box-shadow: 0 16px 24px rgba(0, 0, 0, .3), 0 6px 8px rgba(0, 0, 0, .2);
+        box-shadow: 0 16px 24px rgba(0, 0, 0, .3), 0 6px 8px rgba(0, 0, 0, .2);
+    }
+
+    #tippy-11 {
+        background-color: var(--crust) !important;
+    }
+
+    .UIBT7E6ZYMcSDl1KL62g {
+        fill: var(--text) !important;
+    }
+
+    .n5XwsUqagSoVk8oMiw1x {
+        fill: var(--text);
+    }
+
+    .bfQ2S9bMXr_kJjqEfcwA a,
+    .rq2VQ5mb9SDAFWbBIUIn a {
+        color: var(--subtext1);
+    }
+
+    .TywOcKZEqNynWecCiATc {
+        --bg-color: rgba(69, 71, 90, .5);
+        --fg-color: #89dceb;
+    }
+
+    .epWhU7hHGktzlO_dop6z {
+        background-color: transparent !important;
+        background-image: linear-gradient(90deg, var(--accent) 93%, transparent 100%);
+    }
+
+    .LunqxlFIupJw_Dkx6mNx:hover {
+        background: var(--surface0);
+    }
+
+    .encore-dark-theme .encore-over-media-set {
+        --background-base: var(--crust);
+        --background-highlight: var(--base);
+        --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
+        --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
+        --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
+        --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
+        --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --text-base: var(--text);
+        --text-subdued: var(--text);
+        --text-bright-accent: var(--text);
+        --text-negative: var(--text);
+        --text-warning: var(--text);
+        --text-positive: var(--text);
+        --text-announcement: var(--text);
+        --essential-base: var(--text);
+        --essential-subdued: var(--text);
+        --essential-bright-accent: var(--text);
+        --essential-negative: var(--text);
+        --essential-warning: var(--text);
+        --essential-positive: var(--text);
+        --essential-announcement: var(--text);
+        --decorative-base: var(--text);
+        --decorative-subdued: hsla(0, 0%, 100%, .13);
+    }
+
+    .encore-dark-theme,
+    .encore-dark-theme .encore-base-set {
+        --background-base: var(--crust);
+        --background-highlight: var(--base);
+        --background-press: #000;
+        --background-elevated-base: var(--crust);
+        --background-elevated-highlight: #585b70;
+        --background-elevated-press: #000;
+        --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .07);
+        --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .1);
+        --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .04);
+        --background-unsafe-for-small-text-base: #121212;
+        --background-unsafe-for-small-text-highlight: #121212;
+        --background-unsafe-for-small-text-press: #121212;
+        --text-base: var(--text);
+        --text-subdued: #a7a7a7;
+        --text-bright-accent: var(--accent);
+        --text-negative: #f15e6c;
+        --text-warning: #ffa42b;
+        --text-positive: #1ed760;
+        --text-announcement: #3d91f4;
+        --essential-base: #fff;
+        --essential-subdued: #727272;
+        --essential-bright-accent: #1ed760;
+        --essential-negative: #e91429;
+        --essential-warning: #ffa42b;
+        --essential-positive: #1ed760;
+        --essential-announcement: #0d72ea;
+        --decorative-base: #fff;
+        --decorative-subdued: #292929;
+    }
+
+    .encore-dark-theme .encore-bright-accent-set {
+        --background-base: var(--accent);
+        --background-highlight: var(--accent);
+        --background-press: var(--accent);
+        --background-elevated-base: var(--accent);
+        --background-elevated-highlight: var(--accent);
+        --background-elevated-press: var(--accent);
+        --background-tinted-base: var(--accent);
+        --background-tinted-highlight: var(--accent);
+        --background-tinted-press: var(--accent);
+        --background-unsafe-for-small-text-base: var(--accent);
+        --background-unsafe-for-small-text-highlight: var(--accent);
+        --background-unsafe-for-small-text-press: var(--accent);
+        --text-base: #000;
+        --text-subdued: #000;
+        --text-bright-accent: #000;
+        --text-negative: #000;
+        --text-warning: #000;
+        --text-positive: #000;
+        --text-announcement: #000;
+        --essential-base: #000;
+        --essential-subdued: #000;
+        --essential-bright-accent: #000;
+        --essential-negative: #000;
+        --essential-warning: #000;
+        --essential-positive: #000;
+        --essential-announcement: #000;
+        --decorative-base: #000;
+        --decorative-subdued: var(--accent);
+    }
+}
